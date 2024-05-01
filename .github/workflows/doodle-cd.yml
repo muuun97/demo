@@ -3,8 +3,6 @@ on:
   push:
     branches:
       - "master"
-    paths:
-      - "**.java"
      
 jobs:
   server-deploy:
